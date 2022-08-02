@@ -1,3 +1,5 @@
 #! /bin/bash
 
 docker compose up -d
+
+docker compose exec phaser /app/script/_phaser_server_setup
